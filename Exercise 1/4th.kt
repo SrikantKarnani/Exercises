@@ -23,3 +23,22 @@
         println("Number of Special Characters in $str is ${count[3]} which is " 
         + (count[3]*100.0/str.length) + " %");
  }
+
+//  var str = "tffds %^fdVF#fw53T"
+//     var digits = 0
+//     var lowerCase = 0
+//     var upperCase = 0
+//     var specialChars = 0
+//     val strLength = str.length
+//     str.toCharArray().forEach {
+//         when{
+//             it.isDigit()->{digits++}
+//             it.isUpperCase()->{upperCase++}
+//             it.isLowerCase()->{lowerCase++}
+//             else->{specialChars++}
+//         }
+//     }
+//     println("""${(digits.toDouble() / strLength) * 100} digit""")
+//     println("""${(lowerCase.toDouble() / strLength) * 100} lowerCase""")
+//     println("""${(upperCase.toDouble() / strLength) * 100} upperCase""")
+//     println("""${(specialChars.toDouble() / strLength) * 100} special""")
