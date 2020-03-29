@@ -5,6 +5,7 @@
 fun main(args : Array<String>) {
     var s1 = "hello this is kotlin language . kotlin language is new java language"
     var arr = s1.split(" ")
+//     arr.groupingBy { it }.eachCount().forEach { t, u -> if (u > 1) println("$t repeats $u times") }
 
     val map = HashMap<String, Int>()
 
